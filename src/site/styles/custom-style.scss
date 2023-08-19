@@ -10,3 +10,8 @@ body {
   line-height: 1.6;
 }
 
+@media (max-width: 800px) {
+   h1, h2, h3 {
+     line-height: 1.7;
+   }
+}
