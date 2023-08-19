@@ -9,8 +9,12 @@ body {
   line-height: 1.6;
 }
 
+.markdown-rendered ul > li {
+  line-height: 1.7;
+}
+
 @media (max-width: 800px) {
-   h1, h2, h3 {
+   .markdown-preview-view h1, h2, h3 {
      line-height: 1.7;
    }
 }
