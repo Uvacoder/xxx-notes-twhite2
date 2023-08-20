@@ -10,11 +10,11 @@ body {
 }
 
 .markdown-rendered ul > li {
-  line-height: 1.7;
+  line-height: 1.7 !important;
 }
 
 .markdown-rendered ol > li {
-  line-height: 1.7;
+  line-height: 1.7 !important;
 }
 
 .markdown-preview-view h1, h2, h3, h4, h5 {
