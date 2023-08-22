@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/what-is-the-cyber-kill-chain-and-how-to-use-it-effectively/"}
+{"dg-publish":true,"permalink":"/what-is-the-cyber-kill-chain-and-how-to-use-it-effectively/","created":"","updated":""}
 ---
 
 
