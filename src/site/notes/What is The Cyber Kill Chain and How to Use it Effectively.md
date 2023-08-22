@@ -27,6 +27,8 @@ Each stage is related to a certain type of activity in a cyber attack, regardles
     The act of exploiting vulnerabilities, and delivering malicious code onto the system, in order to get a better foothold.
 -   **Privilege Escalation**  
     Attackers often need more privileges on a system to get access to more data and permissions: for this, they need to escalate their privileges often to an Admin.
+{ #5506c2}
+
 -   **Lateral Movement**  
     Once they’re in the system, attackers can move laterally to other systems and accounts in order to gain more leverage: whether that’s higher permissions, more data, or greater access to systems.
 -   **Obfuscation / Anti-forensics**  
@@ -59,10 +61,14 @@ You’re inside the door, and the perimeter is breached. The exploitation stage 
 ### Privilege Escalation
 
 What’s the point of getting in the building, if you’re stuck in the lobby? Attackers use privilege escalation to get elevated access to resources. Privilege escalation techniques often include [brute force attacks](https://www.varonis.com/blog/brute-force-attack/?hsLang=en), preying on password vulnerabilities, and exploiting [zero day vulnerabilities](https://www.varonis.com/blog/zero-day-vulnerability/?hsLang=en). They’ll modify GPO security settings, configuration files, change permissions, and try to extract credentials.
+{ #4214be}
+
 
 ### Lateral Movement
 
 You’ve got the run of the place, but you still need to find the vault. Attackers will move from system to system, in a lateral movement, to gain more access and find more assets. It’s also an advanced [data discovery](https://www.varonis.com/products/data-classification-engine?hsLang=en) mission, where attackers seek out critical data and sensitive information, admin access and email servers – often using the same resources as IT and leveraging built-in [tools like PowerShell](https://www.varonis.com/blog/windows-powershell-tutorials/?hsLang=en) – and position themselves to do the most damage.
+{ #666162}
+
 
 ### Obfuscation (anti-forensics)
 
