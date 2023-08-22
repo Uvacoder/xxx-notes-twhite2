@@ -8,7 +8,7 @@ Do you think that having a breadth of technical knowledge in different domains c
 
 I know it sounds ridiculous but I was watching a YouTube video on malware and I thought about macOS disk images and pkg files, both of which are basically folders, or glorified containers.
 
-I wondered if you could possibly distribute [[Malware\|Malware]] in either one of these containers, specifically through pirated software. 
+I wondered if you could possibly distribute [[Malware/Malware\|Malware]] in either one of these containers, specifically through pirated software. 
 
 Ok great. Got the malware installed and it is executable. But ah. Apple has Gatekeeper, a security tool to prevent the installation of malicious software.
 
