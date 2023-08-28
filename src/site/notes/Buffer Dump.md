@@ -3,6 +3,7 @@
 ---
 
 
+```sh
 node index.js
 
   Puppeteer old Headless deprecation warning:
@@ -104,3 +105,4 @@ https://www.programmathically.com/computer-architecture-hardware
   const url = 'https://www.programmathically.com/computer-architecture-hardware/';
 curl -x "http://scraperapi:yourApiKeyHere@proxy-server.scraperapi.com:8001" -k "http://httpbin.org/ip"
 http://scraperapi:yourApiKeyHere@proxy-server.scraperapi.com:8001
+```
