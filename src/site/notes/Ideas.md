@@ -10,7 +10,7 @@ I know it sounds ridiculous but I was watching a YouTube video on malware and [[
 
 I wondered if you could possibly distribute [[Malware/Malware\|Malware]] in either one of these containers, [[What is The Cyber Kill Chain and How to Use it Effectively#^4214be\|specifically through pirated software]]. 
 
-Ok great. Got the malware installed and it is executable. [[What is The Cyber Kill Chain and How to Use it Effectively#^666162\|But ah. Apple has Gatekeeper, a security tool to prevent the installation of malicious software]].
+Ok great. Got the malware installed and it is executable. [[What is The Cyber Kill Chain and How to Use it Effectively#^666162\|What is The Cyber Kill Chain and How to Use it Effectively#^666162]].
 
 There are three levels of permissions in Gatekeeper:
 
