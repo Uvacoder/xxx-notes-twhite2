@@ -21,31 +21,35 @@ body {
      line-height: 1.7 !important;
 }
 
+a {
+  color: rgb(45, 224, 167) !important;
+}
+
 .internal-link a {
-  color: rgb(45, 224, 167);
+  color: rgb(45, 224, 167) !important;
 }
 
 .external-link a {
-  color: rgb(0, 255, 127);
+  color: rgb(0, 255, 127) !important;
 }
 
 .notelink.active-note a {
-  color: rgb(64, 180, 196);
+  color: rgb(64, 180, 196) !important;
 }
 
 .notelink a {
-  color: rgb(45, 224, 167);
+  color: rgb(45, 224, 167) !important;
 }
 
 .graph-title {
   width: fit-content;
-        background-color: rgb(244, 244, 244);
-        margin: 10px 0 0 0;
-        padding: 3px 7px;
-        font-size: 1.2rem !important;
-        border-radius: 10px 10px 0 0;
-        color: rgb(45, 224, 167);
-    }
+  background-color: rgb(244, 244, 244) !important;
+  margin: 10px 0 0 0;
+  padding: 3px 7px;
+  font-size: 1.2rem !important;
+  border-radius: 10px 10px 0 0;
+  color: rgb(45, 224, 167) !important;
+ }
 
 @media (max-width: 800px) {
    .markdown-preview-view h1, h2, h3 {
