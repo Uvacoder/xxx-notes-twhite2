@@ -21,6 +21,10 @@ body {
      line-height: 1.7 !important;
 }
 
+a {
+  color: rgb(45, 224, 167);
+}
+
 @media (max-width: 800px) {
    .markdown-preview-view h1, h2, h3 {
      line-height: 1.7;
