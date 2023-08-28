@@ -21,8 +21,20 @@ body {
      line-height: 1.7 !important;
 }
 
-a {
+.internal-link a {
   color: rgb(45, 224, 167);
+}
+
+.external-link a {
+  color: rgb(0, 255, 127);
+}
+
+.notelink.active-note a {
+  color: rgb(64, 180, 196);
+}
+
+.notelink a {
+  rgb(45, 224, 167);
 }
 
 @media (max-width: 800px) {
