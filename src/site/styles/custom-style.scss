@@ -37,6 +37,16 @@ body {
   rgb(45, 224, 167);
 }
 
+.graph-title {
+  width: fit-content;
+        background-color: rgb(244, 244, 244);
+        margin: 10px 0 0 0;
+        padding: 3px 7px;
+        font-size: 1.2rem !important;
+        border-radius: 10px 10px 0 0;
+        color: rgb(45, 224, 167);
+    }
+
 @media (max-width: 800px) {
    .markdown-preview-view h1, h2, h3 {
      line-height: 1.7;
