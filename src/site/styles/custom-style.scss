@@ -23,22 +23,27 @@ body {
 
 a {
   color: rgb(45, 224, 167) !important;
+  text-decoration-color: rgb(45, 224, 167) !important;
 }
 
 .internal-link a {
   color: rgb(45, 224, 167) !important;
+  text-decoration-color: rgb(45, 224, 167) !important;
 }
 
 .external-link a {
   color: rgb(0, 255, 127) !important;
+  text-decoration-color: rgb(0, 255, 127) !important;
 }
 
 .notelink.active-note a {
   color: rgb(64, 180, 196) !important;
+  text-decoration-color: rgb(64, 180, 196) !important;
 }
 
 .notelink a {
   color: rgb(45, 224, 167) !important;
+  text-decoration-color: rgb(45, 224, 167) !important;
 }
 
 .graph-title {
