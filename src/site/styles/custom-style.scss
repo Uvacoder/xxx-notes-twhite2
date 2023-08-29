@@ -22,18 +22,18 @@ body {
 }
 
 a {
-  color: rgb(45, 224, 167) !important;
-  text-decoration-color: rgb(45, 224, 167) !important;
+  color: rgb(7, 127, 87) !important;
+  text-decoration-color: rgb(7, 127, 87) !important;
 }
 
 .internal-link a {
-  color: rgb(45, 224, 167) !important;
-  text-decoration-color: rgb(45, 224, 167) !important;
+  color: rgb(46, 87, 49) !important;
+  text-decoration-color: rgb(46, 87, 49) !important;
 }
 
 .external-link a {
-  color: rgb(0, 255, 127) !important;
-  text-decoration-color: rgb(0, 255, 127) !important;
+  color: rgb(46, 87, 49) !important;
+  text-decoration-color: rgb(46, 87, 49) !important;
 }
 
 .notelink.active-note a {
@@ -42,17 +42,17 @@ a {
 }
 
 .notelink a {
-  color: rgb(45, 224, 167) !important;
-  text-decoration-color: rgb(45, 224, 167) !important;
+  color: rgb(7, 127, 87) !important;
+  text-decoration-color: rgb(7, 127, 87) !important;
 }
 
 .lucide .lucide-sticky-note .svg-icon {
-  color: rgb(64, 180, 196) !important;
+  color: rgb(7, 127, 87) !important;
 }
 
 .graph-view.color-arrow {
   opacity: 1;
-  color: rgb(45, 224, 167) !important;
+  rgb(7, 127, 87) !important;
 }
 
 .graph-title {
@@ -62,7 +62,7 @@ a {
   padding: 3px 7px;
   font-size: 1.2rem !important;
   border-radius: 10px 10px 0 0;
-  color: rgb(45, 224, 167) !important;
+  color: rgb(7, 127, 87) !important;
  }
 
 @media (max-width: 800px) {
