@@ -3,14 +3,16 @@
 ---
 
 
+> [!abstract] 
+> A Clark School study at the University of Maryland is one of the first to quantify the near-constant rate of hacker attacks of computers with Internet access—every 39 seconds on average.
+> 
 
-
-# Hackers Attack Every 39 Seconds | 2017-02-10 | Security Magazine
-
-> ## Excerpt
-> <p>A Clark School study at the University of Maryland is one of the first to quantify the near-constant rate of hacker attacks of computers with Internet access&mdash;every 39 seconds on average.</p>
 
 ---
+
+
+
+
 A Clark School study at the University of Maryland is one of the first to quantify the near-constant rate of hacker attacks of computers with Internet access—every 39 seconds on average—and the non-secure usernames and passwords we use that give attackers more chance of success.
 
 The study, conducted by Michel Cukier, Clark School assistant professor of mechanical engineering and affiliate of the Clark School's Center for Risk and Reliability and Institute for Systems Research, profiled the behavior of "brute force" hackers, who use simple software-aided techniques to randomly attack large numbers of computers. The researchers discovered which usernames and passwords are tried most often, and what hackers do when they gain access to a computer.
