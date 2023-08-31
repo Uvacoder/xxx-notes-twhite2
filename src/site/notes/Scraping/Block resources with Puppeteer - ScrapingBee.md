@@ -4,8 +4,10 @@
 
 
 
-> [!NOTE]
+> [!note] 
 > I found this article on Scraping Bee, which is attached to this note as markdown, with citations.
+> 
+
 
 
 > [!abstract] 
