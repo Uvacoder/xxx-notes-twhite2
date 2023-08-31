@@ -3,13 +3,14 @@
 ---
 
 
+
 > [!NOTE]
 > I found this article on Scraping Bee, which is attached to this note as markdown, with citations.
 
 
-> ## Excerpt
-
-> This article will show you how to intercept and block requests with Puppeteer using the request interception API and the puppeteer extra plugin.
+> [!abstract] 
+>  This article will show you how to intercept and block requests with Puppeteer using the request interception API and the puppeteer extra plugin.
+>  
 
   
 
