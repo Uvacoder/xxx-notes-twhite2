@@ -3,10 +3,11 @@
 ---
 
 
-# What are memory leaks? | Tutorial & examples | Snyk Learn
-
-> ## Excerpt
+> [!todo] 
 > Learn about memory leaks, and how to mitigate and remediate the vulnerability with real-world examples from security experts.
+> 
+
+
 
 ---
 ### What is a memory leak?
