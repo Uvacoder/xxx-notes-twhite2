@@ -3,10 +3,10 @@
 ---
 
 
-# What is prototype pollution? | Tutorial & examples | Snyk Learn
-
-> ## Excerpt
+> [!todo] 
 > Learn what JavaScript prototype pollution is and how to prevent it.
+> 
+
 
 ---
 ### What is prototype pollution?
