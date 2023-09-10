@@ -3,10 +3,11 @@
 ---
 
 
-# NoSQL Injection attack | Tutorials & Examples | Snyk Learn
-
-> ## Excerpt
+> [!todo] 
 > Learn how NoSQL Injection attacks work, and compare them to the similar SQL injection attacks with examples and remediation information
+> 
+
+
 
 ---
 ### What is NoSQL injection?
