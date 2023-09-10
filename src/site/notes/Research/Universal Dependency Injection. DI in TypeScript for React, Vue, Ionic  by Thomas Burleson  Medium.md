@@ -3,10 +3,11 @@
 ---
 
 
-# Universal Dependency Injection. DI in TypeScript for React, Vue, Ionic | by Thomas Burleson | Medium
-
-> ## Excerpt
+> [!summary] 
 > A lightweight TypeScript dependency injection solution (DI) useful for React, Ionic, and more.
+> 
+
+
 
 ---
 [
