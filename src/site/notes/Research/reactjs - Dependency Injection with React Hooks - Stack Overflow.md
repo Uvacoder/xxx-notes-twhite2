@@ -3,12 +3,11 @@
 ---
 
 
-# reactjs - Dependency Injection with React Hooks - Stack Overflow
-
-> ## Excerpt
+> [!tldr] 
 > The biggest benefit of dependency injection I have found is being able to replace the implementation of a service throughout my entire app in one line at the composition root.
+> 
 
-Is there a way of do...
+
 
 ---
 The biggest benefit of dependency injection I have found is being able to replace the implementation of a service throughout my entire app in one line at the composition root.
