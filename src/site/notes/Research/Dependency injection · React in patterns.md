@@ -5,8 +5,8 @@
 
 # Dependency injection · React in patterns
 
-> ## Excerpt
-> Many of the modules/components that we write have dependencies. A proper management of these dependencies is critical for the success of the project. There is a technique (most people consider it a pattern) called dependency injection that helps solving the problem.
+> [!info] 
+> Many of the modules/components that we write have dependencies. A proper management of these dependencies is critical for the success of the project. There is a technique (most people consider it a pattern) called dependency injection that helps solving the problem. 
 
 ---
 Many of the modules/components that we write have dependencies. A proper management of these dependencies is critical for the success of the project. There is a technique (most people consider it a _pattern_) called [_dependency injection_](http://krasimirtsonev.com/blog/article/Dependency-injection-in-JavaScript) that helps solving the problem.
