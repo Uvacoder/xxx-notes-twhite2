@@ -3,7 +3,6 @@
 ---
 
 
-# Dependency injection in React - LogRocket Blog
 
 
 > [!summary] 
