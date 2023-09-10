@@ -5,8 +5,10 @@
 
 # (18) Unleashing the Power of ChatGPT: Building a C2 Server and reeking havoc on the world! | LinkedIn
 
-> ## Excerpt
-> Please note, a stripped back version of 'Froggy C2' will be linked at the bottom of this article. It is there for educational purposes, the code is not to be used for anything else.
+
+> [!note] 
+> Please note, a stripped back version of 'Froggy C2' will be linked at the bottom of this article. It is there for educational purposes, the code is not to be used for anything else. 
+
 
 ---
 _Please note, a stripped back version of 'Froggy C2' will be linked at the bottom of this article. It is there for educational purposes, the code is not to be used for anything else._
