@@ -18,3 +18,10 @@ Only allow software from the Mac App Store
 Allow installation from the MAS and identified developers 
 Off
 
+## Attacks
+
+Prototype pollution
+Race conditions
+JWT vs Cookies vs base64 passwords
+ORM attacks
+Frontend Architecture
