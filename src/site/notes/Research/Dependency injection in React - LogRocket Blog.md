@@ -5,8 +5,10 @@
 
 # Dependency injection in React - LogRocket Blog
 
-> ## Excerpt
-> Discover the primary reason to use dependency injection in React and follow along with this library-free guide to using it.
+
+> [!summary] 
+> Discover the primary reason to use dependency injection in React and follow along with this library-free guide to using it. 
+
 
 ---
 Dependency injection (DI) is a pattern where components necessary for your code to run are hot-swappable. This means that your dependencies are not hard-coded in your implementation and can change as your environment changes.
