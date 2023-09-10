@@ -3,10 +3,9 @@
 ---
 
 
-# How a C2 Server is Leveraged in a Botnet Command and Control Attack | by Fikayo Adepoju | DNSFilter Blog | Medium
+> [!abstract] 
+>  A Command and Control attack is a component of a malware attack used to establish a remote covert channel between a compromised host and the attacker’s server. The attacker’s server is often referred…
 
-> ## Excerpt
-> A Command and Control attack is a component of a malware attack used to establish a remote covert channel between a compromised host and the attacker’s server. The attacker’s server is often referred…
 
 ---
 [
