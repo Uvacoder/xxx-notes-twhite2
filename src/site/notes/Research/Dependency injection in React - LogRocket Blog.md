@@ -18,7 +18,7 @@ Dependency injection (DI) is a pattern where components necessary for your code 
 
 To illustrate the principles of DI, imagine an npm module that exposes the following `ping` function:
 
-```
+```jsx
 export const ping = (url) => {
   return new Promise((res) => {
     fetch(url)
@@ -30,7 +30,7 @@ export const ping = (url) => {
 
 Using the `ping` function in a modern browser would work just fine.
 
-```
+```jsx
 import { ping } from "./ping"
 
 ping("https://logrocket.com").then((status) => {
@@ -42,7 +42,7 @@ But running this code inside Node.js would throw an error because `fetch` is not
 
 DI allows us to turn `fetch` into an injectable dependency of `ping`, like so:
 
-```
+```jsx
 export const ping = (url, fetch = window.fetch) => {
   return new Promise((res) => {
     fetch(url)
@@ -56,7 +56,7 @@ We are not required to give `fetch` a default value of `window.fetch`, but not r
 
 Now, in a Node environment, we can use `[node-fetch](https://www.npmjs.com/package/node-fetch)` in conjunction with our `ping` function, like so:
 
-```
+```jsx
 import fetch from "node-fetch"
 import { ping } from "./ping"
 
@@ -69,7 +69,7 @@ ping("https://logrocket.com", fetch).then((status) => {
 
 If we have multiple dependencies, it wouldn’t be feasible to keep adding them as parameters: `func(param, dep1, dep2, dep3,…)`. Instead, a better option is to have an object for dependencies:
 
-```
+```jsx
 const ping = (url, deps) => {
   const { fetch, log } = { fetch: window.fetch, log: console.log, ...deps }
 
@@ -105,7 +105,7 @@ Testing is not the only such environment. Platforms like [Storybook](https://sto
 
 Take the following component, for example:
 
-```
+```jsx
 import { useTrack } from '~/hooks'
 
 function Save() {
@@ -122,7 +122,7 @@ function Save() {
 
 As mentioned before, running `useTrack` (and by extension, `track`) is something to avoid. Therefore, we will convert `useTrack` into a dependency of the `Save` component via props:
 
-```
+```jsx
 import { useTracker as _useTrack } from '~/hooks'
 
 function Save({ useTrack = _useTrack }) {
@@ -138,7 +138,7 @@ The name `_useTracker` is one naming convention out of many: `useTrackImpl`, `us
 
 Inside Storybook, we can override the hook as such, using a mocked implementation.
 
-```
+```jsx
 import Save from "./Save"
 
 export default {
@@ -181,7 +181,7 @@ Many well-known libraries provide mocked implementations of their providers for 
 
 In development, we can use a bare `queryClient` with all the default options intact.
 
-```
+```jsx
 import { QueryClient, QueryClientProvider } from "react-query"
 import { useUserQuery } from "~/api"
 
@@ -203,7 +203,7 @@ function User() {
 
 But when testing our code, features like retries, re-fetch on window focus, and cache time can all be adjusted accordingly.
 
-```
+```jsx
 
 import { QueryClient, QueryClientProvider } from "react-query"
 
@@ -258,12 +258,13 @@ In this article, we took a look at a library-free guide to dependency injection 
 -   [NPM](https://blog.logrocket.com/dependency-injection-react/#tab1)
 -   [Script Tag](https://blog.logrocket.com/dependency-injection-react/#tab2)
 
-```
+```sh
 $ npm i --save logrocket import LogRocket from 'logrocket'; LogRocket.init('app/id');
 ```
 
-```
-Add to your HTML:<script src="https://cdn.lr-ingest.com/LogRocket.min.js"></script><script>window.LogRocket && window.LogRocket.init('app/id');</script>
+Add to your HTML:
+```jsx
+<script src="https://cdn.lr-ingest.com/LogRocket.min.js"></script><script>window.LogRocket && window.LogRocket.init('app/id');</script>
 ```
 
 4.  (Optional) Install plugins for deeper integrations with your stack:
