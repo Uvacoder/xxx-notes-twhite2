@@ -5,7 +5,7 @@
 
 
 html, body {
-  background-color: #282e3e;
+  background-color: #efefef;
   font-family: 'Fira Mono', monospace;
 }
 
@@ -15,13 +15,13 @@ html, body {
 }
 
 
-.theme-dark, .search-button, .navbar, .toc, .backlinks, #tooltip-wrapper, #tooltip-content {
-  background-color: #282e3e !important;
-}
+// .theme-dark, .search-button, .navbar, .toc, .backlinks, #tooltip-wrapper, #tooltip-content {
+//   background-color: #282e3e !important;
+// }
 
-.filetree-sidebar, #link-graph, .graph-tooltip {
-  background-color: #1e232f !important;
-}
+// .filetree-sidebar, #link-graph, .graph-tooltip {
+//   background-color: #1e232f !important;
+// }
 
 
 /**
@@ -338,18 +338,18 @@ h1 {
   color: #44ad42 !important;
 }
 
-// .graph-title {
-//   width: fit-content;
-//   background-color: rgb(244, 244, 244) !important;
-//   margin: 10px 0 0 0;
-//   padding: 3px 7px;
-//   font-size: 1.2rem !important;
-//   border-radius: 10px 10px 0 0;
-//   color: rgb(7, 127, 87) !important;
-//  }
+.graph-title {
+  width: fit-content;
+  background-color: rgb(244, 244, 244) !important;
+  margin: 10px 0 0 0;
+  padding: 3px 7px;
+  font-size: 1.2rem !important;
+  border-radius: 10px 10px 0 0;
+  color: rgb(7, 127, 87) !important;
+ }
 
-// @media (max-width: 800px) {
-//    .markdown-preview-view h1, h2, h3 {
-//      line-height: 1.7;
-//    }
-// }
+@media (max-width: 800px) {
+   .markdown-preview-view h1, h2, h3 {
+     line-height: 1.7;
+   }
+}
