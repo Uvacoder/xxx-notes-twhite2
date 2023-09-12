@@ -14,21 +14,9 @@ html, body {
   line-height: 1.6;
 }
 
-// code[class*=language-], pre[class*=language-] {
-//   font-family: "Fira Code",monospace !important;
-//   font-size: 19px !important;
-// }
-
-/*
-
-Name:       Base16 Atelier Sulphurpool Light
-Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool)
-
-Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
-Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
-*/
-background: hsl(230, 1%, 98%);
+code[class*="language-"],
+pre[class*="language-"] {
+	background: hsl(230, 1%, 98%);
 	color: hsl(230, 8%, 24%);
 	font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
 	direction: ltr;
@@ -424,6 +412,13 @@ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::selection {
 .prism-previewer-easing.prism-previewer-easing circle {
 	fill: transparent;
 }
+
+// code[class*=language-], pre[class*=language-] {
+//   font-family: "Fira Code",monospace !important;
+//   font-size: 19px !important;
+// }
+
+
 
 // .theme-dark, .search-button, .navbar, .toc, .backlinks, #tooltip-wrapper, #tooltip-content {
 //   background-color: #282e3e !important;
