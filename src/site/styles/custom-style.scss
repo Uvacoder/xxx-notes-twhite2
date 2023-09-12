@@ -10,7 +10,7 @@ html, body {
 }
 
 .content {
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
   line-height: 1.6;
 }
 
@@ -18,7 +18,7 @@ code[class*="language-"],
 pre[class*="language-"] {
 	background: hsl(230, 1%, 98%);
 	color: hsl(230, 8%, 24%);
-	font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+	font-family: "Fira Code", monospace !important;
 	direction: ltr;
 	text-align: left;
 	white-space: pre;
