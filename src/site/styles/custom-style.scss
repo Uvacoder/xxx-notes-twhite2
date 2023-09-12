@@ -10,7 +10,7 @@ html, body {
 }
 
 h1, .markdown-rendered h1, .HyperMD-header-1, .HyperMD-list-line .cm-header-1 {
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Fira Mono', monospace !important;
 }
 
 .content {
