@@ -13,8 +13,12 @@ html, body {
 }
 
 
-.theme-dark, .navbar {
+.theme-dark, .navbar, .toc, .backlinks {
   background-color: #282e3e !important;
+}
+
+.graph-tooltip {
+  background-color: #1e232f !important;
 }
 
 /**
