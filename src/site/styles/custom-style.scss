@@ -14,7 +14,7 @@ html, body {
   line-height: 1.6;
 }
 
-.filetree-sidebar {
+.filetree-sidebar, .callout, p {
   font-family: 'Roboto Mono', monospace !important;
 }
 
@@ -452,6 +452,7 @@ a {
 
 h1 {
   color: #44ad42 !important;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .internal-link a {
