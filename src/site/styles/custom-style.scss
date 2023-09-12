@@ -31,22 +31,24 @@ Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/b
 code[class*="language-"],
 pre[class*="language-"] {
 	font-family: "Fira Code",monospace !important;
-  font-size: 19px !important;
-	line-height: 1.375;
+        font-size: 19px !important;
+	color: #393A34;
 	direction: ltr;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
+	font-size: .9em;
+	line-height: 1.2em;
+
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
 	tab-size: 4;
+
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
-	background: #f5f7ff;
-	color: #5e6687;
 }
 
 pre > code[class*="language-"] {
@@ -55,14 +57,12 @@ pre > code[class*="language-"] {
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-	text-shadow: none;
-	background: #dfe2f1;
+	background: #b3d4fc;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
-	text-shadow: none;
-	background: #dfe2f1;
+	background: #b3d4fc;
 }
 
 /* Code blocks */
@@ -70,121 +70,81 @@ pre[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
+	border: 1px solid #dddddd;
+	background-color: white;
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
+	padding: .2em;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background: #f8f8f8;
+	border: 1px solid #dddddd;
 }
 
 .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: #898ea4;
-}
-
-.token.punctuation {
-	color: #5e6687;
+	color: #999988;
+	font-style: italic;
 }
 
 .token.namespace {
 	opacity: .7;
 }
 
-.token.operator,
-.token.boolean,
-.token.number {
-	color: #c76b29;
+.token.string,
+.token.attr-value {
+	color: #e3116c;
 }
 
-.token.property {
-	color: #c08b30;
-}
-
-.token.tag {
-	color: #3d8fd1;
-}
-
-.token.string {
-	color: #22a2c9;
-}
-
-.token.selector {
-	color: #6679cc;
-}
-
-.token.attr-name {
-	color: #c76b29;
+.token.punctuation,
+.token.operator {
+	color: #393A34; /* no highlight */
 }
 
 .token.entity,
 .token.url,
-.language-css .token.string,
-.style .token.string {
-	color: #22a2c9;
-}
-
-.token.attr-value,
-.token.keyword,
-.token.control,
-.token.directive,
-.token.unit {
-	color: #ac9739;
-}
-
-.token.statement,
+.token.symbol,
+.token.number,
+.token.boolean,
+.token.variable,
+.token.constant,
+.token.property,
 .token.regex,
-.token.atrule {
-	color: #22a2c9;
-}
-
-.token.placeholder,
-.token.variable {
-	color: #3d8fd1;
-}
-
-.token.deleted {
-	text-decoration: line-through;
-}
-
 .token.inserted {
-	border-bottom: 1px dotted #202746;
-	text-decoration: none;
+	color: #36acaa;
 }
 
-.token.italic {
-	font-style: italic;
+.token.atrule,
+.token.keyword,
+.token.attr-name,
+.language-autohotkey .token.selector {
+	color: #00a4db;
+}
+
+.token.function,
+.token.deleted,
+.language-autohotkey .token.tag {
+	color: #9a050f;
+}
+
+.token.tag,
+.token.selector,
+.language-autohotkey .token.keyword {
+	color: #00009f;
 }
 
 .token.important,
+.token.function,
 .token.bold {
 	font-weight: bold;
 }
 
-.token.important {
-	color: #c94922;
-}
-
-.token.entity {
-	cursor: help;
-}
-
-pre > code.highlight {
-	outline: 0.4em solid #c94922;
-	outline-offset: .4em;
-}
-
-/* overrides color-values for the Line Numbers plugin
- * http://prismjs.com/plugins/line-numbers/
- */
-.line-numbers.line-numbers .line-numbers-rows {
-	border-right-color: #dfe2f1;
-}
-
-.line-numbers .line-numbers-rows > span:before {
-	color: #979db4;
+.token.italic {
+	font-style: italic;
 }
 
 /* overrides color-values for the Line Highlight plugin
