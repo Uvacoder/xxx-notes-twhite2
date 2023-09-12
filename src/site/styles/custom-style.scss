@@ -23,8 +23,9 @@ html, body {
 	background-color: #fbfbfbff !important;
 }
 
-.markdown-preview-view blockquote {
-  box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.1) !important;
+.markdown-preview-view {
+  box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.1) !important;
+
 }
 
 code[class*="language-"],
