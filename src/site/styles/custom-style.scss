@@ -32,6 +32,18 @@ html, body {
   border-left: 4px solid #44ad42  !important;
 }
 
+.markdown-preview-view blockquote {
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+    color: #2e2e2e;
+    background: linear-gradient(145deg, #f9ffff, #fdfdfd);
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 3px 3px, rgba(0, 255, 127, 0.3)6px 6px, rgba(0, 255, 127, 0.2) 9px 9px;
+}
 code[class*="language-"],
 pre[class*="language-"] {
 	background: hsl(230, 1%, 98%);
