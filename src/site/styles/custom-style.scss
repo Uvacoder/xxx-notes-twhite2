@@ -14,7 +14,8 @@ html, body {
   line-height: 1.6;
 }
 
-.filetree-sidebar, .callout, p {
+.filetree-sidebar, .callout, #tooltip-wrapper,
+ #tooltip-content p {
   font-family: 'Roboto Mono', monospace !important;
 }
 
@@ -22,7 +23,7 @@ html, body {
 	background-color: #fbfbfbff !important;
 }
 
-.markdown-preview-view, .markdown-rendered, blockquote {
+blockquote.markdown-preview-view {
   box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.1) !important;
 }
 
