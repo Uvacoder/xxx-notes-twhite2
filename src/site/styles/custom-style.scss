@@ -14,6 +14,10 @@ html, body {
   line-height: 1.6;
 }
 
+.filetree-sidebar {
+  font-family: 'Roboto Mono', monospace !important;
+}
+
 code[class*="language-"],
 pre[class*="language-"] {
 	background: hsl(230, 1%, 98%);
