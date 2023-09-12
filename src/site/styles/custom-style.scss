@@ -9,6 +9,10 @@ html, body {
   font-family: 'Fira Mono', monospace;
 }
 
+h1, .markdown-rendered h1, .HyperMD-header-1, .HyperMD-list-line .cm-header-1 {
+  font-family: 'Fira Mono', monospace;
+}
+
 .content {
   font-family: 'Roboto Mono', monospace;
   line-height: 1.6;
