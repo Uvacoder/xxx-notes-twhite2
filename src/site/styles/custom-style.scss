@@ -298,39 +298,39 @@ code.language-scss,
 //      line-height: 1.7 !important;
 // }
 
-// a {
-//   color: rgb(7, 127, 87) !important;
-//   text-decoration-color: rgb(7, 127, 87) !important;
-// }
+a {
+  color: #44ad42 !important;
+  text-decoration-color: #44ad42 !important;
+}
 
-// .internal-link a {
-//   color: rgb(46, 87, 49) !important;
-//   text-decoration-color: rgb(46, 87, 49) !important;
-// }
+.internal-link a {
+  color: #4dc74b; !important;
+  text-decoration-color: #4dc74b; !important;
+}
 
-// .external-link a {
-//   color: rgb(46, 87, 49) !important;
-//   text-decoration-color: rgb(46, 87, 49) !important;
-// }
+.external-link a {
+  color: #04dc70 !important;
+  text-decoration-color: #04dc70 !important;
+}
 
-// .notelink.active-note a {
-//   color: rgb(64, 180, 196) !important;
-//   text-decoration-color: rgb(64, 180, 196) !important;
-// }
+.notelink.active-note a {
+  color: #237b22; !important;
+  text-decoration-color: #237b22; !important;
+}
 
-// .notelink a {
-//   color: rgb(7, 127, 87) !important;
-//   text-decoration-color: rgb(7, 127, 87) !important;
-// }
+.notelink a {
+  color: #44ad42 !important;
+  text-decoration-color: #44ad42 !important;
+}
 
-// .lucide .lucide-sticky-note .svg-icon {
-//   color: rgb(7, 127, 87) !important;
-// }
+.lucide .lucide-sticky-note .svg-icon {
+  color: #44ad42 !important;
+}
 
-// .graph-view.color-arrow {
-//   opacity: 1;
-//   color: rgb(7, 127, 87) !important;
-// }
+.graph-view.color-arrow {
+  opacity: 1;
+  color: #44ad42 !important;
+}
 
 // .graph-title {
 //   width: fit-content;
