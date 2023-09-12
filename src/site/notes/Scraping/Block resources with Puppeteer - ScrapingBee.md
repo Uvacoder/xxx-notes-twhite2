@@ -127,7 +127,8 @@ There are times when we would want to block specific resources by type. For exam
 	  await page.waitForTimeout(5000); // wait for 5 seconds
 	  await browser.close();
   }
-main();```
+main();
+```
 
   
 
@@ -152,9 +153,7 @@ Next, we will install the [Block Resource Plugin](https://www.npmjs.com/package/
   
 
 ```bash
-
 npm i puppeteer-extra-plugin-block-resources
-
 ```
 
   
