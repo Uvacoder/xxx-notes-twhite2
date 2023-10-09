@@ -10,3 +10,4 @@
 - [create your own web server at DuckDuckGo](https://duckduckgo.com/?q=create+your+own+web+server&t=iphone&ia=web)
 - [simple web server in go at DuckDuckGo](https://duckduckgo.com/?q=simple+web+server+in+go&t=iphone&ia=web)
 
+Neovim: [YouTube](https://youtu.be/stqUbv-5u2s?si=aGl8v2FK2hlLrjke)
