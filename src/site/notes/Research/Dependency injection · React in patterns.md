@@ -12,7 +12,7 @@ Many of the modules/components that we write have dependencies. A proper managem
 
 In React the need of dependency injector is easily visible. Let's consider the following application tree:
 
-```
+```jsx
 // Title.jsx
 export default function Title(props) {
   return <h1>{ props.title }</h1>;
@@ -47,7 +47,7 @@ The string "React in patterns" should somehow reach the `Title` component. The d
 
 We already saw how the [higher-order component](https://krasimir.gitbooks.io/react-in-patterns/content/chapter-04/#higher-order-component) may be used to inject data. Let's use the same technique to inject the `title` variable:
 
-```
+```jsx
 // inject.jsx
 const title = 'React in patterns';
 
@@ -87,7 +87,7 @@ _In v16.3 React's team introduced a new version of the context API and if you ar
 
 React has the concept of [_context_](https://facebook.github.io/react/docs/context.html). The _context_ is something that every React component has access to. It's something like an [event bus](https://github.com/krasimir/EventBus) but for data. A single _store_ which we access from everywhere.
 
-```
+```jsx
 // a place where we will define the context
 var context = { title: 'React in patterns' };
 
@@ -115,7 +115,7 @@ Inject.contextTypes = {
 
 Notice that we have to specify the exact signature of the context object. With `childContextTypes` and `contextTypes`. If those are not specified then the `context` object will be empty. That can be a little bit frustrating because we may have lots of stuff to put there. That is why it is a good practice that our `context` is not just a plain object but it has an interface that allows us to store and retrieve data. For example:
 
-```
+```jsx
 // dependencies.js
 export default {
   data: {},
@@ -130,7 +130,7 @@ export default {
 
 Then, if we go back to our example, the `App` component may look like that:
 
-```
+```jsx
 import dependencies from './dependencies';
 
 dependencies.register('title', 'React in patterns');
@@ -152,7 +152,7 @@ App.childContextTypes = {
 
 And our `Title` component gets it's data through the context:
 
-```
+```jsx
 // Title.jsx
 export default class Title extends React.Component {
   render() {
@@ -168,7 +168,7 @@ Title.contextTypes = {
 
 Ideally we don't want to specify the `contextTypes` every time when we need an access to the context. This detail may be wrapped again in a higher-order component. And even better, we may write an utility function that is more descriptive and helps us declare the exact wiring. I.e instead of accessing the context directly with `this.context.get('title')` we ask the higher-order component to get what we need and pass it as props to our component. For example:
 
-```
+```jsx
 // Title.jsx
 import wire from './wire';
 
@@ -185,7 +185,7 @@ The `wire` function accepts a React component, then an array with all the needed
 
 Here is how the `wire` function looks like:
 
-```
+```jsx
 export default function wire(Component, dependencies, mapper) {
   class Inject extends React.Component {
     render() {
@@ -216,7 +216,7 @@ Let's use the same example with the string that needs to reach a `<Title>` compo
 
 We will start by defining a file that will contain our context initialization:
 
-```
+```js
 // context.js
 import { createContext } from 'react';
 
@@ -230,7 +230,7 @@ export const Consumer = Context.Consumer;
 
 Let's say that our `App` component is the root of our tree. At that place we have to pass the context.
 
-```
+```jsx
 import { Provider } from './context';
 
 const context = { title: 'React In Patterns' };
@@ -248,7 +248,7 @@ class App extends React.Component {
 
 The wrapped components and their children now share the same context. The `<Title>` component is the one that needs the `title` string so that is the place where we use the `<Consumer>`.
 
-```
+```jsx
 import { Consumer } from './context';
 
 function Title() {
@@ -278,7 +278,7 @@ How is that helping for our injection? Well, if we export an object we are actua
 
 Let's create a new file called `di.jsx` with the following content:
 
-```
+```jsx
 var dependencies = {};
 
 export function register(key, dependency) {
@@ -313,7 +313,7 @@ We'll store the dependencies in `dependencies` global variable (it's global for 
 
 Having the `di.jsx` helper we are again able to register our dependencies at the entry point of our application (`app.jsx`) and inject them wherever (`Title.jsx`) we need.
 
-```
+```jsx
 // app.jsx
 import Header from './Header.jsx';
 import { register } from './di.jsx';
