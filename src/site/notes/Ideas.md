@@ -25,3 +25,8 @@ Race conditions
 JWT vs Cookies vs base64 passwords
 ORM attacks
 Frontend Architecture
+
+
+## Job Hunting Prep and Resources
+
+[Pentesting Study Plan and Job Hunting — on a Budget by Security by Accident OSINT TEAM](https://medium.com/the-first-digit/getting-a-pentesting-job-without-spending-a-dollar-9cff9e3ecc85)
