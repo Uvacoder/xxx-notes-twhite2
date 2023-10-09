@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/redis/","created":"","updated":""}
 ---
 
-<mark style="background: #D2B3FFA6;">Databases are a collection of organized information that can be easily accessed, managed and updated. In most environments, database systems are very important because they communicate information related to your sales transactions, product inventory, customer profiles and marketing activities.</mark>
+Databases are a collection of organized information that can be easily accessed, managed and updated. In most environments, database systems are very important because they communicate information related to your sales transactions, product inventory, customer profiles and marketing activities.
 
 There are different types of databases and one among them is Redis, which is an 'in-memory' database. In- memory databases are the ones that rely essentially on the primary memory for data storage (meaning that the database is managed in the RAM of the system); in contrast to databases that store data on the disk or SSDs. As the primary memory is significantly faster than the secondary memory, the data retrieval time in the case of 'in-memory' databases is very small, thus offering very efficient & minimal response times.
 
