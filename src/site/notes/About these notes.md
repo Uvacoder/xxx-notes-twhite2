@@ -14,3 +14,5 @@ Notes on cybersecurity. These are just my random observations, *[just for me](ht
 > 
 
 <a style="display:none;" rel="me" href="https://infosec.exchange/@tiff">Mastodon</a>
+
+<a style="display:none;" rel="me" href="https://infosec.exchange/@0x8c">Mastodon</a>
