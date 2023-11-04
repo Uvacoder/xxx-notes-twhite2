@@ -12,3 +12,5 @@ Notes on cybersecurity. These are just my random observations, *[just for me](ht
 > [!caution] 
 > These are unformed, incomplete notes and thoughts. These are *my* assessments of different cybersecurity interests and are in no way intended to be taken as research or authority. Use discretion if reading or responding to these.
 > 
+
+<a style="display:none;" rel="me" href="https://infosec.exchange/@tiff">Mastodon</a>
