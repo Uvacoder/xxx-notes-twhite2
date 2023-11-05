@@ -49,7 +49,7 @@ throttling file size checks connections errors regex dir limits file limits logg
 - serves files
 - oob testing
 - data exfiltration
-- managing persisitence
+- managing persistence
 
   
   
