@@ -82,6 +82,6 @@ throttling file size checks connections errors regex dir limits file limits logg
 Try to find some articles and videos on the topic so you can experiment with your script.
 [main.py](https://github.com/twhite96/ddos-script/blob/main/main.py)
 
-- Could I use an `impacket` class of some sort?
+- Could I use an `impacket` [[Scripting Notes/DDoS Script#^9418ad\|class]] of some sort?
 - Where can I find detailed information about using `impacket`?
 - `socket` or `asyncio`?
