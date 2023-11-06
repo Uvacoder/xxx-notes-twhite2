@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/math/domain-and-range/","created":"","updated":""}
 ---
 
-
+ 
 # Domain and range
 
 > [!summary] 
