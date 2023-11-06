@@ -10,8 +10,7 @@
 ## Commits
 
 **Initial commit**
-[twhite96/ddos-script at 1d2ff5999ad5ea26893ad67ca809c8805e3774f5](https://github.com/twhite96/ddos-script/tree/1d2ff5999ad5ea26893ad67ca809c8805e3774f5)
-
+[twhite96/ddos-script initial commit](https://github.com/twhite96/ddos-script/tree/1d2ff5999ad5ea26893ad67ca809c8805e3774f5)
 
 **Commit before pairing with Craig**
 [main.py](https://github.com/twhite96/ddos-script/blob/51f9105efabe6f6bae2769db50ba6ff68cb7b22d/main.py)
