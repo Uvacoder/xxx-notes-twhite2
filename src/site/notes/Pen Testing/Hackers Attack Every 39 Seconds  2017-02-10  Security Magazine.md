@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/pen-testing/hackers-attack-every-39-seconds-2017-02-10-security-magazine/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/pen-testing/hackers-attack-every-39-seconds-2017-02-10-security-magazine/"}
 ---
 
 
