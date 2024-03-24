@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming/golang/web-server/links/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/programming/golang/web-server/links/"}
 ---
 
 
