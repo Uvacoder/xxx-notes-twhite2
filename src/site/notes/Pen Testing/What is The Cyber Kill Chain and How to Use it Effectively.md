@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/pen-testing/what-is-the-cyber-kill-chain-and-how-to-use-it-effectively/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/pen-testing/what-is-the-cyber-kill-chain-and-how-to-use-it-effectively/"}
 ---
 
 
