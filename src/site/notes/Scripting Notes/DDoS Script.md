@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/scripting-notes/d-do-s-script/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/scripting-notes/d-do-s-script/"}
 ---
 
 > [!note] 
