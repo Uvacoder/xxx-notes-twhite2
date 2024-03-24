@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/research/what-is-code-injection-tutorial-and-examples-snyk-learn-1/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/research/what-is-code-injection-tutorial-and-examples-snyk-learn-1/"}
 ---
 
 
