@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/pen-testing/redis/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/pen-testing/redis/"}
 ---
 
 Databases are a collection of organized information that can be easily accessed, managed and updated. In most environments, database systems are very important because they communicate information related to your sales transactions, product inventory, customer profiles and marketing activities.
