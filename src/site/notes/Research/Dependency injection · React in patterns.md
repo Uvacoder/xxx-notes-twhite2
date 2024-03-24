@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/research/dependency-injection-react-in-patterns/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/research/dependency-injection-react-in-patterns/"}
 ---
 
 
