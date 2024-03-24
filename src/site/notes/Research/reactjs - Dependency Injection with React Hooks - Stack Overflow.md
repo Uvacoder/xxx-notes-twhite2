@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/research/reactjs-dependency-injection-with-react-hooks-stack-overflow/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/research/reactjs-dependency-injection-with-react-hooks-stack-overflow/"}
 ---
 
 
