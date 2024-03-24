@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/domain-and-range/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/math/domain-and-range/"}
 ---
 
  
