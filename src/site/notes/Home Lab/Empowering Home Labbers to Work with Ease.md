@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home-lab/empowering-home-labbers-to-work-with-ease/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/home-lab/empowering-home-labbers-to-work-with-ease/"}
 ---
 
 
