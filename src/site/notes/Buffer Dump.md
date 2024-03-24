@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/buffer-dump/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/buffer-dump/"}
 ---
 
 
