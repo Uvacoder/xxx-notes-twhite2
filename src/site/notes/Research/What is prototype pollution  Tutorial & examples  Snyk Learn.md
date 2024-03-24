@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/research/what-is-prototype-pollution-tutorial-and-examples-snyk-learn/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/research/what-is-prototype-pollution-tutorial-and-examples-snyk-learn/"}
 ---
 
 
