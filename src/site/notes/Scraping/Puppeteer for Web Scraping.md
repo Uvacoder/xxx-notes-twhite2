@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/scraping/puppeteer-for-web-scraping/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/scraping/puppeteer-for-web-scraping/"}
 ---
 
 
