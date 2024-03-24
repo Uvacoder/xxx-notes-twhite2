@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/research/universal-dependency-injection-di-in-type-script-for-react-vue-ionic-by-thomas-burleson-medium/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/research/universal-dependency-injection-di-in-type-script-for-react-vue-ionic-by-thomas-burleson-medium/"}
 ---
 
 
