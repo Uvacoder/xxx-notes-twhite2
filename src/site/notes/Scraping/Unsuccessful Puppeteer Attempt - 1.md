@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/scraping/unsuccessful-puppeteer-attempt-1/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/scraping/unsuccessful-puppeteer-attempt-1/"}
 ---
 
 
