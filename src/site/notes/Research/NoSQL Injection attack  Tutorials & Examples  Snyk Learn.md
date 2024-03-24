@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/research/no-sql-injection-attack-tutorials-and-examples-snyk-learn/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/research/no-sql-injection-attack-tutorials-and-examples-snyk-learn/"}
 ---
 
 
