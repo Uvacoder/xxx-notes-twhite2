@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/research/how-a-c2-server-is-leveraged-in-a-botnet-command-and-control-attack-by-fikayo-adepoju-dns-filter-blog-medium/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/research/how-a-c2-server-is-leveraged-in-a-botnet-command-and-control-attack-by-fikayo-adepoju-dns-filter-blog-medium/"}
 ---
 
 
