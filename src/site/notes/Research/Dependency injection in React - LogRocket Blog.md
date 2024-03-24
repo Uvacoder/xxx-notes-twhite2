@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/research/dependency-injection-in-react-log-rocket-blog/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/research/dependency-injection-in-react-log-rocket-blog/"}
 ---
 
 
