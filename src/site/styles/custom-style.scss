@@ -525,6 +525,11 @@ h1 {
   color: rgb(7, 127, 87) !important;
  }
 
+#link-graph {
+  color: rgb(81, 161, 56) !important;
+  background-color: rgba(81, 161, 56, .7) !important;
+}
+
 @media (max-width: 800px) {
    .markdown-preview-view h1, h2, h3 {
      line-height: 1.7;
