@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/scraping/block-resources-with-puppeteer-scraping-bee/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/scraping/block-resources-with-puppeteer-scraping-bee/"}
 ---
 
 
