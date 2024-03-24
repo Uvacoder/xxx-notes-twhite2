@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/scraping/how-to-avoid-detection-with-puppeteer-zen-rows/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/scraping/how-to-avoid-detection-with-puppeteer-zen-rows/"}
 ---
 
 
