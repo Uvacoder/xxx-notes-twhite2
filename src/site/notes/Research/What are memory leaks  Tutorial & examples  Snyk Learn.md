@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/research/what-are-memory-leaks-tutorial-and-examples-snyk-learn/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/research/what-are-memory-leaks-tutorial-and-examples-snyk-learn/"}
 ---
 
 
