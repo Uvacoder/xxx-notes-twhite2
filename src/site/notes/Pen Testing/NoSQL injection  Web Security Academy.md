@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/pen-testing/no-sql-injection-web-security-academy/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/pen-testing/no-sql-injection-web-security-academy/"}
 ---
 
 
