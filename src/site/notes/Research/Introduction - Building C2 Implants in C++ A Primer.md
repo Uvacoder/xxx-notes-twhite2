@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/research/introduction-building-c2-implants-in-c-a-primer/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/research/introduction-building-c2-implants-in-c-a-primer/"}
 ---
 
 
