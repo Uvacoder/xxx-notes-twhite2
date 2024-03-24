@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/research/unleashing-the-power-of-chat-gpt-building-a-c2-server-and-reeking-havoc-on-the-world/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/research/unleashing-the-power-of-chat-gpt-building-a-c2-server-and-reeking-havoc-on-the-world/"}
 ---
 
 
