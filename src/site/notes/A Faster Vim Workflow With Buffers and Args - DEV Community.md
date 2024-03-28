@@ -11,6 +11,7 @@ When I formally switched to Vim full time (having used Atom, IntelliJ, and VSCod
 
 ## Buffers
 
+
 After months of using Vim, I was drawn to the buffer workflow. In this article, I will share how that workflow works.
 
 ## Vim Buffers
