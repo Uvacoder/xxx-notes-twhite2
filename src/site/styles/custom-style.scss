@@ -40,13 +40,14 @@ h1, .markdown-rendered h1, .HyperMD-header-1, .HyperMD-list-line .cm-header-1 {
     border: 1px solid #00ff7f !important;
     box-sizing: border-box !important;
     font-size: 1rem !important;
-    padding: 16px;
-    text-align: left;
+    padding: 16px !important;
+    text-align: left !important;
     width: 100%;
-    color: #2e2e2e;
-    background: linear-gradient(145deg, #f9ffff, #fdfdfd);
+    color: #2e2e2e !important;
+    background: linear-gradient(145deg, #f9ffff, #fdfdfd) !important;
     border-radius: 12px;
     padding: 16px;
+    font-style: italic !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
@@ -59,7 +60,7 @@ h1, .markdown-rendered h1, .HyperMD-header-1, .HyperMD-list-line .cm-header-1 {
   top: 14 !important;
   width: .3rem !important;
   font-size: 60px !important;
-  font-style: italic;
+  font-style: italic !important;
 }
 
 .markdown-preview-view blockquote::after {
@@ -70,7 +71,7 @@ h1, .markdown-rendered h1, .HyperMD-header-1, .HyperMD-list-line .cm-header-1 {
   position: absolute !important;
   width: .3rem !important;
   font-size: 60px !important;
-  font-style: italic;
+  font-style: italic !important;
 }
 
 // .markdown-preview-view blockquote {
