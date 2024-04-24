@@ -50,6 +50,29 @@ h1, .markdown-rendered h1, .HyperMD-header-1, .HyperMD-list-line .cm-header-1 {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;;
 }
 
+.markdown-preview-view blockquote::before {
+  color: #00ff7f;
+  bottom: 0;
+  content: '“';
+  left: -9;
+  position: absolute;
+  top: 14;
+  width: .3rem;
+  font-size: 100px;
+  font-style: italic;
+}
+
+.markdown-preview-view blockquote::after {
+  color: #00ff7f;
+  bottom: -40;
+  content: '”';
+  right: 58;
+  position: absolute;
+  width: .3rem;
+  font-size: 100px;
+  font-style: italic;
+}
+
 // .markdown-preview-view blockquote {
 //   box-sizing: border-box;
 //   font-size: 1.9rem;
