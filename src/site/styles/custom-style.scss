@@ -51,25 +51,25 @@ h1, .markdown-rendered h1, .HyperMD-header-1, .HyperMD-list-line .cm-header-1 {
 }
 
 .markdown-preview-view blockquote::before {
-  color: #00ff7f;
-  bottom: 0;
-  content: '“';
-  left: -9;
-  position: absolute;
-  top: 14;
-  width: .3rem;
-  font-size: 100px;
+  color: #00ff7f !important;
+  bottom: 0 !important;
+  content: '“' !important;
+  left: -9 !important;
+  position: absolute !important;
+  top: 14 !important;
+  width: .3rem !important;
+  font-size: 60px !important;
   font-style: italic;
 }
 
 .markdown-preview-view blockquote::after {
-  color: #00ff7f;
-  bottom: -40;
-  content: '”';
-  right: 58;
-  position: absolute;
-  width: .3rem;
-  font-size: 100px;
+  color: #00ff7f !important;
+  bottom: -40 !important;
+  content: '”' !important;
+  right: 58 !important;
+  position: absolute !important;
+  width: .3rem !important;
+  font-size: 60px !important;
   font-style: italic;
 }
 
