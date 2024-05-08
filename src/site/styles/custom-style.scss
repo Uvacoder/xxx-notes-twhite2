@@ -47,33 +47,33 @@ h1, .markdown-rendered h1, .HyperMD-header-1, .HyperMD-list-line .cm-header-1 {
     background: transparent !important;
     border-radius: 12px;
     padding: 16px;
-    border-left: 0px transparent !important;
+    border-left: 0px #FBFBFB !important;
     font-style: italic !important;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px !important;
 }
 
-.markdown-preview-view blockquote::before {
-  color: #00ff7f !important;
-  bottom: 0 !important;
-  content: '“' !important;
-  left: -9 !important;
-  position: absolute !important;
-  top: 14 !important;
-  width: .3rem !important;
-  font-size: 60px !important;
-  font-style: italic !important;
-}
+// .markdown-preview-view blockquote::before {
+//   color: #00ff7f !important;
+//   bottom: 0 !important;
+//   content: '“' !important;
+//   left: -9 !important;
+//   position: absolute !important;
+//   top: 14 !important;
+//   width: .3rem !important;
+//   font-size: 60px !important;
+//   font-style: italic !important;
+// }
 
-.markdown-preview-view blockquote::after {
-  color: #00ff7f !important;
-  bottom: -40 !important;
-  content: '”' !important;
-  right: 58 !important;
-  position: absolute !important;
-  width: .3rem !important;
-  font-size: 60px !important;
-  font-style: italic !important;
-}
+// .markdown-preview-view blockquote::after {
+//   color: #00ff7f !important;
+//   bottom: -40 !important;
+//   content: '”' !important;
+//   right: 58 !important;
+//   position: absolute !important;
+//   width: .3rem !important;
+//   font-size: 60px !important;
+//   font-style: italic !important;
+// }
 
 // .markdown-preview-view blockquote {
 //   box-sizing: border-box;
